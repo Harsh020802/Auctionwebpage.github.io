@@ -1,0 +1,84 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+
+*{
+    margin: 20px;
+    padding: 0%;
+}
+body{
+    background-image:  url("t1.jpg");
+    background-size: cover;
+    backdrop-filter: blur(3px);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Heading{
+    font-family: 'IBM Plex Serif', serif;
+ 
+    margin-left: 460px;
+}
+.contain{
+    font-family:'Roboto', sans-serif ;
+    width: 300px;
+    height: 400px;
+    background-color:F5F5F5;
+    margin-left: 36%;
+    margin-top:7% ;
+    text-align: center;
+    color: white;
+    border: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: black;
+}
+.in1{
+    border: none;
+    background-color: black;
+    border-bottom: 2px solid white;
+    width: 250px;
+    font-size:20px ;
+    margin-top: 40px;
+    outline: none;
+    color: white;
+
+}
+.in2{
+    border: none;
+    background-color: black;
+    border-bottom: 2px solid white;
+    width: 250px;
+    font-size:20px ;
+    margin-top: 40px;
+    outline: none;
+    color: white;
+
+}
+.text button{
+    width: 250px;
+    height: 44px;
+    background-color: aqua;
+    color: black;
+    border: none;
+    font-size: 20px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+button:hover{
+    border: 3px solid white;
+    color: white;
+    font-size: 24px;
+    background-color: black;
+    cursor: pointer;
+
+}
+p{
+    margin-top: 30px;
+    font-size: 20px;
+
+}
+p span{
+    color: aqua;
+    cursor: pointer;
+}
